@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         defaultBtn.setOnClickListener { _-> startPatternActivity(TYPE_DEFAULT) }
         jdStyleBtn.setOnClickListener { _-> startPatternActivity(TYPE_JD_STYLE) }
         indicatorBtn.setOnClickListener { _-> startPatternActivity(TYPE_WITH_INDICATOR) }
-        nineBtn.setOnClickListener { _-> startPatternActivity(TYPE_9x9) }
+        nineBtn.setOnClickListener { _-> startPatternActivity(TYPE_DEFAULT) }
         secureModeBtn.setOnClickListener { _-> startPatternActivity(TYPE_SECURE_MODE) }
     }
 

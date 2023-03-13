@@ -53,7 +53,7 @@ class PatternLockActivity : AppCompatActivity() {
         }
 
         override fun onComplete(ids: ArrayList<Int>): Boolean {
-            var isCorrect = TextUtils.equals("012", getPatternString(ids))
+            var isCorrect = TextUtils.equals("0487", getPatternString(ids))
             var tip: String
             if (isCorrect) {
                 tip = "correct:" + getPatternString(ids)

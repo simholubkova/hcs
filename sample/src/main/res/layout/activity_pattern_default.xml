@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/pic">
 
     <com.itsxtt.patternlock.PatternLockView
         android:id="@+id/defaultPatternLockView"

@@ -53,7 +53,8 @@ class PatternLockActivity : AppCompatActivity() {
         }
 
         override fun onComplete(ids: ArrayList<Int>): Boolean {
-            var isCorrect = TextUtils.equals("0487", getPatternString(ids))
+            // path should be = [12,9,5,1,7,11,]
+            var isCorrect = TextUtils.equals("12,9,5,1,7,11,", getPatternString(ids))
             var tip: String
             if (isCorrect) {
                 tip = "correct:" + getPatternString(ids)
@@ -69,6 +70,7 @@ class PatternLockActivity : AppCompatActivity() {
         var result = ""
         for (id in ids) {
             result += id.toString()
+            result += ','
         }
         return result
     }

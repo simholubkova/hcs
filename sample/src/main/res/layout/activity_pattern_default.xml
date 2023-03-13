@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/adobe">
+    android:background="@drawable/adobe3">
 
     <com.itsxtt.patternlock.PatternLockView
         android:id="@+id/defaultPatternLockView"

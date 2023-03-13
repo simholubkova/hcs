@@ -18,8 +18,8 @@ class PatternLockView : GridLayout {
         const val DEFAULT_RADIUS_RATIO = 0.3f
         const val DEFAULT_LINE_WIDTH = 2f // unit: dp
         const val DEFAULT_SPACING = 24f // unit: dp
-        const val DEFAULT_ROW_COUNT = 5
-        const val DEFAULT_COLUMN_COUNT = 5
+        const val DEFAULT_ROW_COUNT = 4
+        const val DEFAULT_COLUMN_COUNT = 4
         const val DEFAULT_ERROR_DURATION = 400 // unit: ms
         const val DEFAULT_HIT_AREA_PADDING_RATIO = 0.2f
         const val DEFAULT_INDICATOR_SIZE_RATIO = 0.2f
@@ -216,10 +216,11 @@ class PatternLockView : GridLayout {
         var hidden: Boolean = true   // hidden to be interactable but not seen
         for(i in 0..(plvRowCount-1)) {
             for(j in 0..(plvColumnCount-1)) {
-                if ((i == 0 && j == 1) || (i == 1 && j == 2)) {
-                    interactable = false
-                }
-                if (i == j) {hidden = false}
+//                if ((i == 0 && j == 1) || (i == 1 && j == 2)) {
+//                    interactable = true
+//                }
+//                if (i == j) {hidden = false}
+//
                 var cell = Cell(context, i * plvColumnCount + j,
                         regularCellBackground, regularDotColor, regularDotRadiusRatio,
                         selectedCellBackground, selectedDotColor, selectedDotRadiusRatio,
@@ -231,8 +232,8 @@ class PatternLockView : GridLayout {
                 addView(cell)
 
                 cells.add(cell)
-                interactable = true
-                hidden = true
+//                interactable = true
+//                hidden = true
             }
         }
     }

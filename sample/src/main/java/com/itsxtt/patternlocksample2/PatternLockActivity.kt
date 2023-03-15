@@ -1,4 +1,4 @@
-package com.itsxtt.patternlocksample
+package com.itsxtt.patternlocksample2
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

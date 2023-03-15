@@ -1,4 +1,4 @@
-package com.itsxtt.patternlocksample;
+package com.itsxtt.patternlocksample2;
 
 import org.junit.Test;
 

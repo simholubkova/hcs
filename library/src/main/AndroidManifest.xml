@@ -1,2 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.itsxtt.patternlock2"/>
+    package="com.itsxtt.patternlock2">
+    <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

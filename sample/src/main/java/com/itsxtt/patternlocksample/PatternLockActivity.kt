@@ -3,6 +3,7 @@ package com.itsxtt.patternlocksample
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.text.TextUtils
+import android.widget.Toast
 import com.itsxtt.patternlock.PatternLockView
 import com.itsxtt.patternlocksample.R
 import kotlinx.android.synthetic.main.activity_pattern_9x9.*
@@ -57,11 +58,11 @@ class PatternLockActivity : AppCompatActivity() {
             var isCorrect = TextUtils.equals("12,9,5,1,7,11,", getPatternString(ids))
             var tip: String
             if (isCorrect) {
-                tip = "correct:" + getPatternString(ids)
+                tip = "CORRECT" + getPatternString(ids)
             } else {
-                tip = "error:" + getPatternString(ids)
+                tip = "#####WRONG#####" + getPatternString(ids)
             }
-            //Toast.makeText(this@PatternLockActivity, tip, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@PatternLockActivity, tip, Toast.LENGTH_SHORT).show()
             return isCorrect
         }
     }

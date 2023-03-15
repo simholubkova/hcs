@@ -3,15 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:background="@drawable/adobe3">
+    android:gravity="center">
 
-    <com.itsxtt.patternlock.PatternLockView
+    <com.itsxtt.patternlock2.PatternLockView
         android:id="@+id/defaultPatternLockView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="72dp"
         android:layout_marginRight="72dp">
-    </com.itsxtt.patternlock.PatternLockView>
+    </com.itsxtt.patternlock2.PatternLockView>
 
 </LinearLayout>

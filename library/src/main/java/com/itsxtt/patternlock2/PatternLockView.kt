@@ -1,4 +1,4 @@
-package com.itsxtt.patternlock
+package com.itsxtt.patternlock2
 
 import android.content.Context
 import android.graphics.*
@@ -213,7 +213,7 @@ class PatternLockView : GridLayout {
 
     private fun setupCells() {
         var interactable: Boolean = true
-        var hidden: Boolean = true   // hidden to be interactable but not seen
+        var hidden: Boolean = false   // hidden to be interactable but not seen
         for(i in 0..(plvRowCount-1)) {
             for(j in 0..(plvColumnCount-1)) {
 //                if ((i == 0 && j == 1) || (i == 1 && j == 2)) {

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <com.itsxtt.patternlock.PatternLockView
+    <com.itsxtt.patternlock2.PatternLockView
         android:id="@+id/ninePatternLockView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,5 +15,5 @@
         app:plv_columnCount="9"
         app:plv_rowCount="9">
 
-    </com.itsxtt.patternlock.PatternLockView>
+    </com.itsxtt.patternlock2.PatternLockView>
 </LinearLayout>

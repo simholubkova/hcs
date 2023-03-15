@@ -58,9 +58,9 @@ class PatternLockActivity : AppCompatActivity() {
             var isCorrect = TextUtils.equals("12,9,5,1,7,11,", getPatternString(ids))
             var tip: String
             if (isCorrect) {
-                tip = "CORRECT" + getPatternString(ids)
+                tip = "CORRECT"// + getPatternString(ids)
             } else {
-                tip = "#####WRONG#####" + getPatternString(ids)
+                tip = "#####WRONG#####" //+ getPatternString(ids)
             }
             Toast.makeText(this@PatternLockActivity, tip, Toast.LENGTH_SHORT).show()
             return isCorrect

@@ -1,6 +1,13 @@
 # Pattern Lock View 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-PatternLockView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6988) 
 
+## Changes made by the HCS team:
+The changes are visible on the branches "background" and "no-backgroud".
+The DEFAULT mode has been replaced with custom 4x4 pattern with eiter visible or invisible pattern points and a custom background.
+Changes were made for an experiment by Team S for the course Human Centered Security, University of Glasgow 2023.
+The .APK files have been compiled and released under relases.
+The Team S thanks itsxtt - the original author of this code for creation of the bases and used this source in accordance with the Licence.
+
 Awesome pattern lock view for android written in kotlin.
 
 [demo](https://github.com/itsxtt/pattern-lock/tree/master/apk)
